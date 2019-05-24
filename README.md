@@ -31,10 +31,19 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 run 'npm install <libraryname>' e.g.  "npm install bootstrap" it will install the package into node_modules directory 
 
-## To genrate component we have a shorthand method 
+## To genrate component we have a shorthand method / Alias
 
-run 'npm g c  <componentName>' e.g. "ng g c posts"
+run 'ng g c  <componentName>' e.g. "ng g c posts"
 
 ## Routing flag
 
 <router-outlet></router-outlet> is added by cli when we are writing a Router flag
+
+## app-routing.module.ts
+
+import component in "app-routing.module.ts" to rout the components 
+use of 'app-routing.module.ts' you can define url/path of page, which should be displayed in browser when you call a component on anchor click
+
+## To Genrate new service
+
+run 'ng generate service <name>' generates a service or 'ng g s <serviceName>'
