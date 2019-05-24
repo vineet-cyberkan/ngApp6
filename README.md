@@ -27,7 +27,10 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
 
 
-## To istall extenal liberary
+## To install extenal liberary
 
-run 'npm install <libraryname>' e.g.  "npm install bootstrap" it will install the package into node_modules directory
+run 'npm install <libraryname>' e.g.  "npm install bootstrap" it will install the package into node_modules directory 
 
+## To genrate componet we have a shorthand method 
+
+run 'npm g c  <componentName>' e.g. "ng g c posts"
