@@ -31,6 +31,10 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 run 'npm install <libraryname>' e.g.  "npm install bootstrap" it will install the package into node_modules directory 
 
-## To genrate componet we have a shorthand method 
+## To genrate component we have a shorthand method 
 
 run 'npm g c  <componentName>' e.g. "ng g c posts"
+
+## Routing flag
+
+<router-outlet></router-outlet> is added by cli when we are writing a Router flag
