@@ -3,8 +3,11 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  styleUrls: [
+  '../../node_modules/bootstrap/dist/css/bootstrap.min.css',
+  './app.component.scss'
+  ]
 })
 export class AppComponent {
-  title = 'ngApp6';
+  title = 'Angular 7 test app';
 }
