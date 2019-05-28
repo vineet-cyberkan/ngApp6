@@ -1,0 +1,31 @@
+h2{
+	font-size: 30px;
+}
+
+.user-info {
+	list-style: none;
+	padding:0px;
+	margin:0px;
+	a[ng-reflect-router-link]{
+		font-size: 22px;
+		font-weight: bold;
+		margin-bottom: 5px
+	}
+	ul {
+		list-style: none;
+		padding:0px;
+		margin:0px;
+	}
+	li{
+		border-radius: 3px;
+		background-color: #fff;
+		margin-bottom: 15px;
+		color: #333;
+		padding: 15px;
+
+		li {
+			margin:0px 0px 5px;
+			padding:0px;
+		}
+	}
+}
