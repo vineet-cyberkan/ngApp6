@@ -10,14 +10,14 @@ export class DataService {
 
   getUsers(){
   	 //return this.http.get('https://jsonplaceholder.typicode.com/users');
-  	 let userInfo =  this.http.get('https://jsonplaceholder.typicode.com/users');
+  	 let userInfo =  this.http.get('https://jsonplaceholder.typicode.com/users')
   	 //console.log("userInfo=>"+userInfo);
   	 return userInfo;
 
   }
 
-  getUser(id){
-  	 return this.http.get('https://jsonplaceholder.typicode.com/users/'+id);
+  getUser(userId){
+  	 return this.http.get('https://jsonplaceholder.typicode.com/users/'+userId)
   }
 
   getpost(){
