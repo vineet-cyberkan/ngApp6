@@ -1,5 +1,7 @@
-<script>
-	console.log('test =>'+user$)
-</script>
-
-this {{ user$ }}
+<h1>{{ user$.name }}</h1>
+<ul class="user-details">
+	<li><strong>Username:</strong> {{ user$.username}}</li>
+	<li><strong>Email:</strong> {{ user$.email}}</li>
+	<li><strong>Phone:</strong> {{ user$.phone}}</li>
+	<li><strong>Website:</strong> <a href="http://{{ user$.website}}" title="{{ user$.website}}">{{ user$.website}}</a></li>
+</ul>
