@@ -19,8 +19,6 @@ export class DetailsComponent implements OnInit {
   ngOnInit() {
   	this.data.getUser(this.user$).subscribe(
   		data => this.user$ = data
-  		// above line of code work on angular 6, giving an error in angular 7 
-
   	)
   }
 
