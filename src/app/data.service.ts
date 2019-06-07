@@ -10,17 +10,20 @@ export class DataService {
 
   getUsers(){
   	 //return this.http.get('https://jsonplaceholder.typicode.com/users');
-  	 let userInfo =  this.http.get('https://jsonplaceholder.typicode.com/users')
+  	 let userInfo =  this.http.get('https://jsonplaceholder.typicode.com/users');
   	 //console.log("userInfo=>"+userInfo);
   	 return userInfo;
 
   }
 
   getUser(userId){
-  	 return this.http.get('https://jsonplaceholder.typicode.com/users/'+userId)
+  	 return this.http.get('https://jsonplaceholder.typicode.com/users/'+userId);
   }
 
   getPosts(){
-  	 return this.http.get('https://jsonplaceholder.typicode.com/posts');
+  	 //return this.http.get('https://jsonplaceholder.typicode.com/posts');
+     let posts = this.http.get('https://jsonplaceholder.typicode.com/posts');
+     //console.log("posts=>"+posts);
+     return posts;
   }
 }

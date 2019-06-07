@@ -1,4 +1,10 @@
 <h2>Posts</h2>
+<script src="/javascripts/application.js" type="text/javascript" charset="utf-8" async defer>
+for ( x in posts$){
+      console.info( x )
+      console.info( posts$[x] )
+    }
+</script>
 <ul>
 	<li *ngFor="let post of posts$">
 		<a routerLInk="">{{post.title}}</a>
