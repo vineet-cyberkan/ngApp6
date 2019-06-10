@@ -1,6 +1,24 @@
 <nav class="sidebar-app">
 	<ul>
-		<li><a routerLink=""><i class="material-icons">supervised_user_circle</i></a></li>
-		<li><a routerLink="posts"><i class="material-icons">message</i></a></li>
+		<li>
+			<a routerLink="" [class.activated]="currentUrl == '/'">
+				<i class="material-icons">supervised_user_circle</i>
+			</a>
+		</li>
+		<li>
+			<a routerLink="posts" [class.activated]="currentUrl == '/posts'">
+				<i class="material-icons">message</i>
+			</a>
+		</li>
+		<!-- <li>
+			<a routerLink="" [className]="currentUrl == '/'? 'activated' : 'inactive'">
+				<i class="material-icons">supervised_user_circle</i>
+			</a>
+		</li>
+		<li>
+			<a routerLink="posts" [className]="currentUrl == '/posts'? 'activated' : 'inactive'">
+				<i class="material-icons">message</i>
+			</a>
+		</li> -->
 	</ul>
 </nav>
